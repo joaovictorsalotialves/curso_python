@@ -1,0 +1,32 @@
+/* [meu-atributo] {
+    color: red;
+} */
+
+/* [meu-atributo="valor"] {
+    color: red;
+} */
+
+/* [meu-atributo~="valor1"] {
+    color: red;
+} */
+
+/* [meu-atributo|="valor"] {
+    color: red;
+} */
+
+/* [meu-atributo^="valor"] {
+    color: red;
+} */
+
+/* [meu-atributo$="2"] {
+    color: red;
+} */
+
+/* [meu-atributo*="-b valor1"] {
+    color: red;
+} */
+
+ul li::after {
+    content: ' - ';
+    background-color: red;
+}
